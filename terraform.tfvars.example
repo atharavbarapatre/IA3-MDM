@@ -1,0 +1,8 @@
+aws_region    = "ap-south-1"
+project_name  = "jenkins-cicd-demo"
+environment   = "dev"
+instance_type = "t3.micro"
+key_name      = null          # or "your-keypair-name"
+app_port      = 3000
+allowed_cidr  = "0.0.0.0/0"   # tighten to "<your-ip>/32" for safety
+docker_image  = "nginx:alpine"
